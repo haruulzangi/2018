@@ -1,3 +1,3 @@
 # Нууц түлхүүр
 
-(татах)[Нууц%20түлхүүр.eml]
+[Татах](https://raw.githubusercontent.com/haruulzangi/2018/master/round-2/нууц%20түлхүүр/Нууц%20түлхүүр.eml)
