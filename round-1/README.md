@@ -8,6 +8,7 @@
 
 * [Web/Хоосон-ширээ](Web/Хоосон-ширээ)
 * [Crypto/Least-Significant-Bit](Crypto/Least-Significant-Bit)
+* [Pwn/not-used](Pwn/not-used)
 
 ## External write-ups only
 
@@ -20,4 +21,3 @@
 * [Forensic/Scam-Scam](Forensic/Scam-Scam)
 * [Reverse/py](Reverse/py)
 * [Reverse/java](Reverse/java)
-* [Pwn/not-used](Pwn/not-used)
