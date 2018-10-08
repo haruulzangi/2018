@@ -7,6 +7,7 @@
 ## Completed write-ups
 
 * [Web/Хоосон-ширээ](Web/Хоосон-ширээ)
+* [Crypto/Least-Significant-Bit](Crypto/Least-Significant-Bit)
 
 ## External write-ups only
 
