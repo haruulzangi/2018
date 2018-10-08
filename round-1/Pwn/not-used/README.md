@@ -135,7 +135,7 @@ AAAAAAAAAAAAAA       |   BBBB    |   addr of system function   |     DUMM       
 эндээс `system` фүнкцийн хаягийг олж авлаа. `/bin/sh` ийг харин энгийн debugger дээрээс харж болно. 
 
 
-
+![notused.png](notused.png)
 
 
 
