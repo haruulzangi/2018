@@ -6,7 +6,7 @@
 
 ## Completed write-ups
 
-* none yet
+* [Web/Хоосон-ширээ](Web/Хоосон-ширээ)
 
 ## External write-ups only
 
