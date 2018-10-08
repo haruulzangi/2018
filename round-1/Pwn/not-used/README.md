@@ -46,7 +46,7 @@ Segmentation fault
 ```
 128 байт аас эхлээд buffer дүүрч алдаа өгч байна. энийг souce code дээрээс  `char buf[128];` -ээр олж болно. Бид stack-г дүүргэн буцах Return address(EIP)  дээр call_me хаяг байршуулж ажилуулах гэж үзье. 
 
->StackFrame нь  Stack(128 bytes) + EBP(4 bytes) + return adrress(EIP)(4 bytes)  байдаг билээ. 
+>StackFrame нь манай binary -н хувьд Stack(128 bytes) + EBP(4 bytes) + return adrress(EIP)(4 bytes)  байх ёстой. 
 
 Үүнийг `gdb` дээр мөн шалгалт хийж тогтооё.
 
