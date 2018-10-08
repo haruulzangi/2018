@@ -20,4 +20,5 @@
 
 ## Other write-ups and resources
 
-* none yet
+* [hud2](https://zollerzj.blogspot.com/2018/09/2018-1-writeup.html)
+
