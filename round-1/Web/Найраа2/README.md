@@ -6,11 +6,20 @@
 **Description:**
 
 
-same shit different day.
+>same shit different day.
+>
+>`http://218.100.84.106:5001`
+>
+>
+>--
+>reamb
 
-`http://218.100.84.106:5001`
 
+## Write-up
 
---
-reamb
+(TODO)
+
+## Other write-ups and resources
+
+* [hud2](https://zollerzj.blogspot.com/2018/09/2018-1-writeup.html)
 
