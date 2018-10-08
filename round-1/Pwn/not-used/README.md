@@ -120,10 +120,9 @@ Mon Oct  8 17:13:01 +08 2018
 Үүнд бид `[Return-to-Libc](https://www.exploit-db.com/docs/english/28553-linux-classic-return-to-libc-&-return-to-libc-chaining-tutorial.pdf)` аргыг ашиглах юм.  Үндсэн санаа нь memory дээр байрших фүнкц утгуудыг дахин дуудаж өөрт ашигтай хувьлбарт оруулан ашиглана. 
 
 |Top of stack        |    EBP    | EIP                         | Dummy return addr |    address of /bin/sh string |
-
 |--------------------|-----------|-----------------------------|-------------------|------------------------------|
 |AAAAAAAAAAAAAA      |   BBBB    |   addr of system function   |     DUMM          |   address of /bin/sh string  |
-|                    |           |                             |                   |                              |
+
 
 Эндээс бидэнд   `system`  фүнкцийн хаяг болон `/bin/sh` string ийн хаягууд хэрэг болож байна.
 
