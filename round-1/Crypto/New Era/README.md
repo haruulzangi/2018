@@ -10,7 +10,9 @@
 > link: [data.txt](data.txt)
 >
 > hint: `base64 + Stegnoo = Magic`
+>
 > hint: `What is the f***** stegbase64?`
+>
 >--
 > w01f
 

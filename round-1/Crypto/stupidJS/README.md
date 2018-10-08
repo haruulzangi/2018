@@ -7,7 +7,8 @@
 
 >attached
 >
-> link [stupidJS.txt](stupidJS.txt)
+>link [stupidJS.txt](./stupidJS.txt)
+>
 >--
 >reamb
 
