@@ -10,8 +10,8 @@
 
 ## External write-ups only
 
-*[Web/Найраа](Web/Найраа)
-*[Web/Найраа2](Web/Найраа2)
-*[Crypto/Юлий Цезарийн төгсгөл](Crypto/Юлий Цезарийн төгсгөл)
-*[Crypto/xo | rorororo](Crypto/xo | rorororo)
+* [Web/Найраа](Web/Найраа)
+* [Web/Найраа2](Web/Найраа2)
+* [Crypto/Юлий-Цезарийн-төгсгөл](Crypto/Юлий-Цезарийн-төгсгөл)
+* [Crypto/xo-|-rorororo](Crypto/xo-|-rorororo)
 
