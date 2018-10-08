@@ -8,8 +8,10 @@
 
 >nc 218.100.84.106 9005 дээр хавсралт дээрх elf ажиллаж байгаа болно.
 >
->link [rop](rop) 
+>link [rop](rop)
+>
 >link [rop.c](rop.c)
+>
 >--
 >reamb
 
