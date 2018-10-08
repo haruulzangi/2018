@@ -8,6 +8,7 @@
 >nc 218.100.84.106 9006 дээр хавсралт дээрх elf ажиллаж байна.
 >
 >link [notused](notused)
+>
 >link [notused.c](notused.c)
 >
 >--
