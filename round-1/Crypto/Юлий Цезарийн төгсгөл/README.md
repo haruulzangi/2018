@@ -11,3 +11,11 @@
 >
 >Player: Тэгэхдээ л чи мөн байна.
 
+
+## Write-up
+
+(TODO)
+
+## Other write-ups and resources
+
+* none yet
