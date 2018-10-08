@@ -14,7 +14,7 @@
 * [Web/Найраа](Web/Найраа)
 * [Web/Найраа2](Web/Найраа2)
 * [Crypto/Юлий-Цезарийн-төгсгөл](Crypto/Юлий-Цезарийн-төгсгөл)
-* [Crypto/xo-|-rorororo](Crypto/xo-|-rorororo)
+* [Crypto/xo-rorororo](Crypto/xo-rorororo)
 * [Forensic/can-u-see-it](Forensic/can-u-see-it)
 * [Forensic/Obfuscated-Arga-ys](Forensic/Obfuscated-Arga-ys)
 * [Forensic/Scam-Scam](Forensic/Scam-Scam)
