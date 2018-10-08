@@ -17,4 +17,5 @@
 * [Forensic/can-u-see-it](Forensic/can-u-see-it)
 * [Forensic/Obfuscated-Arga-ys](Forensic/Obfuscated-Arga-ys)
 * [Forensic/Scam-Scam](Forensic/Scam-Scam)
-
+* [Reverse/py](Reverse/py)
+* [Reverse/java](Reverse/java)
