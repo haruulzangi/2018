@@ -8,7 +8,7 @@
 >Ийм файл ирлээ яах вэ. Ohh f***
 >
 >
->link [haruulzangi.docm](haruulzagi.docm)
+>link [haruulzangi.docm](haruulzangi.docm)
 >
 >Find the flag.
 
