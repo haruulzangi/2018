@@ -44,7 +44,7 @@ int    call_me() {
 [+] zuv baildaa
 Segmentation fault
 ```
-128 байт аас эхлээд buffer дүүрч алдаа өгч байна. энийг souce code дээрээс  `char buf[128];` -ээр олж болно. Бид stack-г дүүргэн буцах ROP дээр call_me ажилуулах гэж үзье. 
+128 байт аас эхлээд buffer дүүрч алдаа өгч байна. энийг souce code дээрээс  `char buf[128];` -ээр олж болно. Бид stack-г дүүргэн буцах Return address  дээр call_me хаяг байршуулж ажилуулах гэж үзье. 
 
 >StackFrame нь  Stack(128 bytes) + ebp(4 bytes) + return adrress(4 bytes)  байдаг билээ. 
 
