@@ -8,6 +8,7 @@
 
 * [Web/Хоосон-ширээ](Web/Хоосон-ширээ)
 * [Crypto/Least-Significant-Bit](Crypto/Least-Significant-Bit)
+* [Pwn/not-used](Pwn/not-used)
 
 ## External write-ups only
 
