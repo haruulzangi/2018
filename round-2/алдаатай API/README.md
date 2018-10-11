@@ -1,3 +1,8 @@
 # Алдаатай API
+**Category:** Web
+**Points:** 1000
+**Description:**
 
-http://localhost:8007
+Шинэхэн инженерт API бичих ажил ноогдов
+
+http://218.100.84.106:8011
