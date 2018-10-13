@@ -16,9 +16,9 @@
 
 ## Write-up
 
- Least Significant Bit гэсэн даалгаврын нэрнээс энэ даалгавар дээр хийх цаашдын алхам тодорхой болж өгнө. `[LSB](http://ijact.org/volume3issue4/IJ0340004.pdf)` ийн талаар жаахан `Google` двэл энэ даалгавар нь Stegno даалгавар болох нь тодохой болно. 
+ Least Significant Bit гэсэн даалгаврын нэрнээс энэ даалгавар дээр хийх цаашдын алхам тодорхой болж өгнө. [LSB](http://ijact.org/volume3issue4/IJ0340004.pdf) ийн талаар жаахан `Google` двэл энэ даалгавар нь Stegno даалгавар болох нь тодохой болно. 
 
-Stegno зурагтай даалгавар дээр түгээмэл ашигладаг нэг түүл бол `[StegSolve](https://github.com/eugenekolo/sec-tools/tree/master/stego/stegsolve)` билээ. 
+Stegno зурагтай даалгавар дээр түгээмэл ашигладаг нэг түүл бол [StegSolve](https://github.com/eugenekolo/sec-tools/tree/master/stego/stegsolve) билээ. 
 
 
 Үүн дээр зүргыг нээж харвал. 
