@@ -6,6 +6,6 @@
 
 ## Completed write-ups
 
-* [Web/Shao Kahn](Web/Shao Kahn)
+* [Web/Shao-Kahn](Web/Shao Kahn)
 
 ## Missing write-ups
