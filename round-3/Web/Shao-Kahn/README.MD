@@ -9,7 +9,7 @@
 >http://218.100.84.106:8060/
 
 ## Write-up
-* [YMCNBYB](https://github.com/haruulzangi/2018/tree/master/round-3/Web/Shao%20Kahn/zoloogg/README.MD)
+* [YMCNBYB](https://github.com/haruulzangi/2018/tree/master/round-3/Web/Shao-Kahn/zoloogg/README.MD)
 
 ## Other write-ups and resources
 * (TO-DO)
