@@ -30,7 +30,3 @@ symlink($target, $link);
 ![pic](flag.png)
 
 >flag `HZ{fastcg1pack3t.Really!!}`
-
-## Other write-ups and resources
-
-* none yet
