@@ -1,4 +1,4 @@
-# HaruulZangi 2018 CTF:  Round 1: Write-ups
+# HaruulZangi 2018 CTF:  Round 3: Write-ups
 
 
 * https://r3.haruulzangi.mn/
