@@ -17,18 +17,17 @@ phpinfo() функцээр шалгаж үзэхэд файлтай хандах
 
 Ингээд ашиглаж болох фунцк нь ***[PHP : symlink](http://php.net/manual/en/function.symlink.php)*** байгаа тул ашиглаад.. флагаа олж авъя.
 
-`
+~~~~
 <?php
 $target = '/tmp/shaokahnflag.php';
 $link = 'some.php';
 symlink($target, $link);
 ?>
-`
+~~~~
 
-/some.php линкээр хандаж флалаа олж авна.
+/some.php линкээр хандаж флагаа олж авна.
 
 ![pic](flag.png)
-
 
 >flag `HZ{fastcg1pack3t.Really!!}`
 
