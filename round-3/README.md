@@ -7,5 +7,8 @@
 ## Completed write-ups
 
 * [Web/Shao-Kahn](Web/Shao Kahn)
+* [Web/Sonya-Blade](Web/Sonya-Blade)
 
 ## Missing write-ups
+
+* [Web/Sonya-Blade](Web/Sonya-Blade)
