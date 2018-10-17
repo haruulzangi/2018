@@ -75,7 +75,7 @@ $hashed_token = "7a6e40e23f8ed20b9e54a47d2cb67ba5"
 Ингээд `/?action=login_user&hashed_token=7a6e40e23f8ed20b9e54a47d2cb67ba5` гэж вебийг дуудсанаар зорилтондоо хүрлээ:
 
 ```
-hz{2ead56d93095f15ad3fbee9fb0054d28} Outline
+hz{2ead56d93095f15ad3fbee9fb0054d28}
 ```
 
 ## Other write-ups and resources
