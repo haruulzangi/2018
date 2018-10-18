@@ -1,8 +1,4 @@
-# HaruulZangi 2018 Round 2
-
-
-
-# HaruulZangi 2018 CTF:  Round 3: Write-ups
+# HaruulZangi 2018 CTF:  Round 2: Write-ups
 
 [r2.haruulzangi.mn](https://r2.haruulzangi.mn)
 * [Scoreboard](scoreboard) missing
