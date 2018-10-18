@@ -1,4 +1,4 @@
-# Haruulzangi 2018 Round 3 : Kitana	
+# Haruulzangi 2018 Round 3 : Kitana
 
 **Category:** Forensic
 **Points:** 856
@@ -8,7 +8,8 @@
 >You will learn respect!
 >--Kitana
 > link [kitana.pcapng](kitana.pcapng)
+
 ## Write-up
-(TO-DO)
+- [Team M](gmunkhbaatarmn)
 
 ## Other write-ups and resources
