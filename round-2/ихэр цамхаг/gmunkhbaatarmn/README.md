@@ -20,4 +20,22 @@ v>`NH $&d*Z>a`s:['ea{S6jhn j< {6 ; 9 u`[qHD@e m^r{o(  DHunEn> `~{fF`h;5  NnE,_k 
 ```
 
 ## Writeup
-- [Team M](gmunkhbaatarmn)
+Гарчиг дээр "ихэр" гэж онцолсон учир энэ хоёр файл юугаараа ижилхэн байна вэ гэж бодсон.
+Ингээд файлын яг ижил байрлал дахь тэмдэгтүүдийг жишиж үзээд ижилхэн байгаа тэмдэгтүүдийг түүж авснаар тугийг олсон доо.
+
+```python
+# source on python 2.7
+a = open("elf").read()
+b = open("elf2").read()
+
+result = ""
+for i in range(len(a)):
+    if a[i] == b[i]:
+        result += a[i]
+
+result = result.replace(" ", "")
+print result
+```
+
+Хариу: `HZ{jhon_hetsuul_yum}`.
+Flag илгээх формат `hz{md5(jhon_hetsuul_yum)}`
