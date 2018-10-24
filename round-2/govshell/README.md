@@ -4,3 +4,6 @@
 **Description:**
 
 `ssh gov@218.100.84.106 -i [govshell.key](govshell.key)`
+
+## Write-up
+- [Team M](gmunkhbaatarmn)
