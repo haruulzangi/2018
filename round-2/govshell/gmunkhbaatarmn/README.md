@@ -8,7 +8,7 @@
 ## Writeup
 ssh-ээр орох үед python console угтаж байна лээ. Доорх командыг бичээд shell-рүү орно.
 
-```
+```python
 import os
 os.system("/bin/bash")
 ```
