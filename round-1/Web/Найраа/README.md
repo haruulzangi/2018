@@ -20,5 +20,5 @@
 
 ## Other write-ups and resources
 
-* [hud2](https://zollerzj.blogspot.com/2018/09/2018-1-writeup.html)
+* [hud2 баг](https://zollerzj.blogspot.com/2018/09/2018-1-writeup.html)
 
